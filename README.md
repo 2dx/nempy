@@ -1,4 +1,4 @@
-NEM SDK for Python3!
+NEM SDK for Python3
 ========================
 
 トランザクション生成用のJSONをcreateTransaction関数に渡すとバイト文字列が返ってきます。それをsignTransaction関数で処理すると署名データが得られます。ここまでをオフラインで実行できます。最後にオンライン環境でannounceTransaction関数でアナウンスすればトランザクションがブロックチェーンに記録されます。モザイク作成時のlevyとメッセージの暗号化は未実装です。  
